@@ -21,31 +21,8 @@
    .postheader   {background-color: LightGray; font-weight: bold; text-align: left;}
 </style>
 
-<script>
+<script src="scripts.js"></script>
 
-function register(status) {
-   if (status=="hide") {
-      document.getElementById('register').style.display = "none";
-   }
-   if (status=="show") {
-      document.getElementById('register').style.display = "block";
-   }
-}
-
-function intro(status) {
-   if (status=="hide") {
-      document.getElementById('intro').style.display = "none";
-      document.getElementById('hide').style.display = "none";
-      document.getElementById('show').style.display = "block";
-   }
-   if (status=="show") {
-      document.getElementById('intro').style.display = "block";
-      document.getElementById('hide').style.display = "block";
-      document.getElementById('show').style.display = "none";
-   }
-}
-
-</script>
 
 </head>
 
@@ -78,11 +55,11 @@ function intro(status) {
 
 </div>
 
-<div id="hide" onclick="intro('hide')" style="background-color: DarkBlue; color: white; padding: 10px; margin: 20px; text-align: center; cursor: pointer;">
+<div id="hide" style="background-color: DarkBlue; color: white; padding: 10px; margin: 20px; text-align: center; cursor: pointer;">
       Hide the introduction
 </div>
 
-<div id="show" onclick="intro('show')" style="background-color: DarkGreen; color: white; padding: 10px; margin: 20px; text-align: center; cursor: pointer; display: none;">
+<div id="show" style="background-color: DarkGreen; color: white; padding: 10px; margin: 20px; text-align: center; cursor: pointer; display: none;">
       Show the introduction
 </div>
 
