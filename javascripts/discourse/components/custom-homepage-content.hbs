@@ -1,11 +1,38 @@
 {{#if this.isHomepage}}
   <section class="customh">
-    <html lang="en"><head>
+   <html lang="en">
+
+<head>
    <title>The Universal Phonetic Alphabet</title>
    <meta name="keywords" content="universal phonetic alphabet upa euphonal">
 
-<script src="https://euphonal.bet/uploads/default/original/1X/4e3d1b890a826b0ab2c45525a26eeb51daa09094.js"></script>
+<style>
+   @font-face  {font-family: 'Dushan Musa Alphabet'; src: local('Dushan Musa Alphabet'), url(fonts/DushanMusaAlphabet-Regular.otf) format('opentype'); unicode-range: U+E000-E2FF;}
+   *   {font-size: 18px; font-family: Arial, Helvetica, sans-serif, 'Dushan Musa Alphabet';}
+   BODY        {background-color: LightSkyBlue;}
+   H3             {font-family: Verdana; font-size: 24px; font-style: italic;}
+   P           {text-align: left;}
+   UL          {text-align: left;}
+   .musa       {font-family: 'Dushan Musa Alphabet'; color: DarkBlue; font-size: 24px;}
+   .button        {background-color: DarkBlue; color: white; padding: 10px; cursor: pointer; text-align: center;}
+</style>
 
+<script>
+
+function intro(status) {
+   if (status=="hide") {
+      document.getElementById('intro').style.display = "none";
+      document.getElementById('hide').style.display = "none";
+      document.getElementById('show').style.display = "block";
+   }
+   if (status=="show") {
+      document.getElementById('intro').style.display = "block";
+      document.getElementById('hide').style.display = "block";
+      document.getElementById('show').style.display = "none";
+   }
+}
+
+</script>
 
 </head>
 
@@ -13,62 +40,51 @@
 
 <div style="font-size: 48px; font-family: Verdana; text-align: center;">The Universal Phonetic Alphabet</div>
 
-<div><table><tbody><tr>
-   <td style="font-size: 36px; color: DarkGreen; text-align: right;">ðɐ<br>juwnᵻ&zwj;ˈvɝsəɫ<br>fᵻˈnɛɾɪkʼ<br>ˈæɫfɐbɛt̚</td>
+<div><table><tr>
+   <td style="font-size: 36px; color: DarkGreen; text-align: right;">&#x00F0;&#x0250;<br />juwn&#x1D7B;&zwj;&#x02C8;v&#x025D;s&#x0259;&#x026B;<br />f&#x1D7B;&#x02C8;n&#x025B;&#x027E;&#x026A;k&#x02BC;<br />&#x02C8;&#x00E6;&#x026B;f&#x0250;b&#x025B;t&#x031A;</td>
    <th style="width: 40%;"><img src="https://www.musa.bet/upa/im/dogs-and-cats.jpg" class="dogcat"style="width: 75%;"></th>
-   <td style="font: 36px 'Dushan Musa Alphabet'; color: DarkBlue;"><br><br><br></td>
-</tr></tbody></table></div>
+   <td style="font: 36px 'Dushan Musa Alphabet'; color: DarkBlue;">&#xE1B0;&#xE084;<br />&#xE111;&#xE0AC;&#xE10B;&#xE116;&#xE0A4;&#xE1BC;&#xE0F8;&#xE115;&#xE299;&#xE0CC;&#xE148;<br />&#xE298;&#xE0A4;&#xE116;&#xE088;&#xE2CE;&#xE074;&#xE23A;<br />&#xE0F0;&#xE148;&#xE298;&#xE084;&#xE192;&#xE08C;&#xE19A;</td>
+</tr></table></div>
 
-<div style="font-size: 48px; font-family: Verdana; font-style: italic; text-align: center;">An Open Discussion</div>
+<div style="font-size: 48px; font-family: Verdana; font-style: italic; text-align: center;" >An Open Discussion</div>
+
+<div class="button" id="hide" onclick="intro('hide')" style="float: right; background-color: DarkBlue; color: white; padding: 10px; margin-left: 20px; text-align: center; cursor: pointer;">
+      Hide the introduction
+</div>
+
+<div class="button" id="show" onclick="intro('show')" style="float: right; display: none; background-color: DarkGreen; color: white; padding: 10px; margin-left: 20px; text-align: center; cursor: pointer; display: none;">
+      Show the introduction
+</div>
+
+<p>Welcome to <b>upa.bet</b>, a forum for discussing how we can best achieve a Universal Phonetic Alphabet.  You'll have to register with Discourse to post a comment or reply.  
+<br />Posts will be moderated for relevance and civility.
 
 <div id="intro">
-    
-    <p>Welcome to <b>upa.bet</b>, a forum for discussing how we can best achieve a Universal Phonetic Alphabet. You may read and vote on all the posts without registering, but you must register to post a comment or reply. Posts will be moderated for relevance and civility.</p>
-    <p></p>
-</div>
+
+<hr />
+
+<p>If we had a “metric system for pronunciation” - a well-designed phonetic notation whose basics anybody could learn in an hour - it would be used in many situations: in language textbooks, in dictionaries and other references, on maps and signs, and in the press.
+
+<p>The IPA is never going to play that role – it’s not even very good at its primary role in academic phonetics.  Despite being based on the Latin alphabet, the symbols seem Cyrillic - somewhat familiar but not legible: <b>[&#x0281;&#x025B;&#x0303;&#x0073;], [&#x02C8;&#x006D;&#x028F;&#x006E;&#x00E7;&#x006E;&#x0329;], [&#x02C8;&#x006B;&#x026A;&#x006A;&#x0069;&#x0075;&#x032F;], [&#x0278;&#x026F;&#xA71C;&#x0291;&#x0069;]</b>. The main problem is that there's no rhyme or reason to them: they're just a jumble of letters that has to be memorized, like a crossword puzzle whose rows and columns don’t form words. And people are not going to memorize 107 symbols and 31 diacritics.
+
+<p>In the absence of a better solution, all kinds of inventive transcriptions abound: <i>BWAY-nos DEE-as, klaak</i>, &#x012B;<i>&#x0074;&#x0068;</i>&#x0259;&#x0072;, /&#x02C8;&#x0074;&#x0279;&#x0061;&#x026A;.&#x0061;&#x028A;&#x0074;/, <i>Thrasyvoulou, kee-yiv, t&uuml;k</i> (for took) and <i>took</i> (for talk).  Not only are they inaccurate, they’re also a waste of time: the student is never going to use them again.  And they’re not universal: they’re targeted at readers of only one language.
+
+<p>What would the ideal Universal Phonetic Alphabet look like?  Well, it would be complete, with enough letters for all the world’s sounds.  It would be consistent: the same sound would always use the same letter, and the same letter would always stand for the same sound.  It would be featural and iconic: letters would help indicate their sounds.  And it would be distinctive – easily recognized - and most of all easy to learn and to remember.  The Latin alphabet doesn’t offer us those advantages, but the Musa Alphabet does, and other such alphabets could be developed or may already exist.
+
+<p>So do we have to learn a completely new script?  Musa looks like Martian hieroglyphics!  Let me tell you the story of our numerals.  For thousands of years, we wrote numbers using <u>letters</u> like MCXIV – nobody had to learn any weird symbols for numbers.  But then in the 12th century, the Hindu numerals we now use – 0123456789 – first came to Europe, and over the next couple of centuries, they completely replaced Roman numerals except for some ornamental uses.  How did that happen, when the Roman numerals were familiar letters that everyone knew?
+
+<p>Well, it turns out that being <u>better</u> is much more important than being familiar or in widespread use.  Without Hindu numerals, it’s doubtful we’d have invented the calculus, double-entry bookkeeping, computers, or even license plate, telephone, credit card, and reference numbers.
+
+<p>We’re in a similar situation now with our alphabets, and it’s still much more important to be better than to be familiar or in widespread use.  We no longer use metal type, the telegraph, typewriters, or rotary phones, but we’re still using a phonetic alphabet left over from the handwriting age.  Writing is the most important technology humans have ever invented; let’s keep improving it.
+
+</div id="intro">
+
+<hr />
+
+</center></body>
 <div class="auth">
 <a href="https://euphonal.bet/c/the-universal-phonetic-alphabet/5" class="button" style="float: right;">Start Discussion</a>
 </div>
 
-<p>If we had a â€œmetric system for pronunciationâ€ - a well-designed phonetic notation whose basics anybody could learn in an hour - it would be used in many situations: in language textbooks, in dictionaries and other references, on maps and signs, and in the press.
-
-</p><p>The IPA is never going to play that role â€“ itâ€™s not even very good at its primary role in academic phonetics.  Despite being based on the Latin alphabet, the symbols seem Cyrillic - somewhat familiar but not legible: [ʁɛ̃s], [ˈmʏnçn̩], [ˈkɪjiu̯], [ɸɯꜜʑi]. The main problem is that there's no rhyme or reason to them: they're just a jumble of letters that has to be memorized, like a crossword puzzle whose rows and columns donâ€™t form words. And people are not going to memorize 107 symbols and 31 diacritics.
-
-</p><p>In the absence of a better solution, all kinds of inventive transcriptions abound: <i>BWAY-nos DEE-as, klaak</i>, ī<i>th</i>ər, /ˈtɹaɪ.aʊt/, <i>Thrasyvoulou, kee-yiv, tük</i> (for took) and <i>took</i> (for talk).  Not only are they inaccurate, theyâ€™re also a waste of time: the student is never going to use them again.  And theyâ€™re not universal: theyâ€™re targeted at readers of only one language.
-
-</p><p>What would the ideal Universal Phonetic Alphabet look like?  Well, it would be complete, with enough letters for all the worldâ€™s sounds.  It would be consistent: the same sound would always use the same letter, and the same letter would always stand for the same sound.  It would be featural and iconic: letters would help indicate their sounds.  And it would be distinctive â€“ easily recognized - and most of all easy to learn and to remember.  The Latin alphabet doesnâ€™t offer us those advantages, but the Musa Alphabet does, and other such alphabets could be developed or may already exist.
-
-</p><p>So do we have to learn a completely new script?  Musa looks like Martian hieroglyphics!  Let me tell you the story of our numerals.  For thousands of years, we wrote numbers using <u>letters</u> like MCXIV â€“ nobody had to learn any weird symbols for numbers.  But then in the 12th century, the Hindu numerals we now use â€“ 0123456789 â€“ first came to Europe, and over the next couple of centuries, they completely replaced Roman numerals except for some ornamental uses.  How did that happen, when the Roman numerals were familiar letters that everyone knew?
-
-</p><p>Well, it turns out that being <u>better</u> is much more important than being familiar or in widespread use.  Without Hindu numerals, itâ€™s doubtful weâ€™d have invented the calculus, double-entry bookkeeping, computers, or even license plate, telephone, credit card, and reference numbers.
-
-</p><p>Weâ€™re in a similar situation now with our alphabets, and itâ€™s still much more important to be better than to be familiar or in widespread use.  We no longer use metal type, the telegraph, typewriters, or rotary phones, but weâ€™re still using a phonetic alphabet left over from the handwriting age.  Writing is the most important technology humans have ever invented; letâ€™s keep improving it.
-
-</p><hr>
-
-<div class="post">
-
-<div class="postheader">1aug24 - Peter Cyrus, The Musa Academy</div>
-
-<p>As the designer of the Musa Alphabet, of course I see Musa as the best solution.  Musa's biggest drawback is its unfamiliarity, but it's so easy to learn that this is quickly overcome.  But I'm also open to see what else we can come up with.
-
-</p><p>When the IPA was invented, it was natural for the designers to base it on the Roman alphabet.  And if they had continued in accordance with some principles, it might have been a big success.  But the current version is just a jumble of symbols, with no system behind it.  Its great advantage should be its familiarity, but very few users of the Roman alphabet will find letters like <b>cxqɞʌɔɤʄɰɺɥʘʢ</b> familiar.  Meanwhile, modern acoustic analysis has made the IPA's articulatory model for vowels outdated, and the IPA relies too heavily on diacritics, which (in addition to being ugly) are often omitted.
-
-</p></div>
-
-<hr>
-
-<table>
-   <tbody><tr>
-      <td align="left" width="30%"></td>
-      <td align="center" width="40%"></td>
-      <td align="right" width="30%" class="date"><a href="contents.htm">20aug24</a></td>
-   </tr>
-</tbody></table>
-
-</center>
-
-
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
 </section>
 {{/if}}
