@@ -2393,9 +2393,6 @@ tbody {
   border-top: 3px solid var(--primary-low)
 }
 
-.topic-list-item,tr {
-  border-bottom: 1px solid var(--primary-low)
-}
 
 @media(prefers-reduced-motion: no-preference) {
   .topic-list-item.highlighted,tr.highlighted {
@@ -25566,9 +25563,6 @@ html {
   border-bottom: 1px solid #ddd !important
 }
 
-.topic-list-item,tr {
-  border-bottom: 1px solid var(--primary-low) !important
-}
 
 .banner-resource .resource-name h2 {
   font-family: "Jubilat" !important;
