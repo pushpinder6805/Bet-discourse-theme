@@ -280,7 +280,6 @@ html {
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
-  background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
   max-width: 1150px;
@@ -776,7 +775,7 @@ color: #919191 !important;
   border-bottom: 1px solid #DDDDDD !important;
 }
 .topic-list-item, tr {
-  border-bottom: 1px solid var(--primary-low) !important;
+  border-bottom: 0px solid var(--primary-low) !important;
 }
 .banner-resource .resource-name h2 {
 font-family: "Jubilat" !important;
