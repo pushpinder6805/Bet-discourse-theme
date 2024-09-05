@@ -232,9 +232,6 @@
   }
   }
   
-  .footer-message.ember-view h3 {
-  font-weight: normal;
-  }
   .custom-footer .third-box .small-link {
     color: #FFFFFF !important;
   }
@@ -3361,11 +3358,7 @@
   .bookmark-reminder-modal .d-modal__body .control-label {
     font-weight: 700
   }
-  
-  .bookmark-reminder-modal .d-modal__body .ember-text-field.bookmark-name {
-    width: 100%;
-    margin-bottom: .5em
-  }
+
   
   .bookmark-reminder-modal .d-modal__footer {
     margin: 0
@@ -7822,10 +7815,7 @@
     box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.25)
   }
   
-  .login-modal #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.login-modal .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.login-modal .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox {
-    width: 1em !important;
-    min-width: unset
-  }
+
   
   .d-modal.insert-hyperlink-modal .insert-link {
     overflow-y: visible
@@ -12224,10 +12214,6 @@
     margin: 0
   }
   
-  .ember-select {
-    background-color: var(--secondary);
-    color: var(--primary)
-  }
   
   img.emoji {
     width: 20px;
@@ -24792,9 +24778,6 @@
     order: 1
   }
   
-  .control-group[data-setting-name=user-user-fields] .user-field.text .controls .ember-text-field {
-    order: 2
-  }
   
   .control-group[data-setting-name=user-user-fields] .user-field.text .controls .tip {
     order: 3
@@ -25017,9 +25000,6 @@
     }
   }
   
-  .footer-message.ember-view h3 {
-    font-weight: normal
-  }
   
   .custom-footer .third-box .small-link {
     color: #fff !important

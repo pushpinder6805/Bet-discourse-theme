@@ -250,32 +250,6 @@ div.ac-wrap {
     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 
-html {
-  body:not(.no-ember) {
-    background: linear-gradient(
-        0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
-      ),
-      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
-  }
-  .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
-  body.no-ember .background-container {
-    display: none;
-  }
-}
 
 html body #main-outlet {
   margin-top: 30px;
@@ -751,9 +725,6 @@ a {
 }
 }
 
-.footer-message.ember-view h3 {
-font-weight: normal;
-}
 .custom-footer .third-box .small-link {
   color: #FFFFFF !important;
 }
@@ -3878,10 +3849,6 @@ html:not(.ios-device) .select-kit .select-kit-body[data-popper-reference-hidden]
   font-weight: 700
 }
 
-.bookmark-reminder-modal .d-modal__body .ember-text-field.bookmark-name {
-  width: 100%;
-  margin-bottom: .5em
-}
 
 .bookmark-reminder-modal .d-modal__footer {
   margin: 0
@@ -8338,10 +8305,6 @@ h3.user-status .relative-date {
   box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.25)
 }
 
-.login-modal #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.login-modal .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.login-modal .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.create-account .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show #login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show .login-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox,.invites-show .invite-form .user-fields .input-group .user-field .controls .checkbox-label input[type=checkbox].ember-checkbox {
-  width: 1em !important;
-  min-width: unset
-}
 
 .d-modal.insert-hyperlink-modal .insert-link {
   overflow-y: visible
@@ -12740,10 +12703,6 @@ div.edit-category .edit-category-tab-topic-template .select-category-template__i
   margin: 0
 }
 
-.ember-select {
-  background-color: var(--secondary);
-  color: var(--primary)
-}
 
 img.emoji {
   width: 20px;
@@ -25308,9 +25267,6 @@ a.topic-featured-link .d-icon {
   order: 1
 }
 
-.control-group[data-setting-name=user-user-fields] .user-field.text .controls .ember-text-field {
-  order: 2
-}
 
 .control-group[data-setting-name=user-user-fields] .user-field.text .controls .tip {
   order: 3
@@ -25533,9 +25489,6 @@ html {
   }
 }
 
-.footer-message.ember-view h3 {
-  font-weight: normal
-}
 
 .custom-footer .third-box .small-link {
   color: #fff !important
